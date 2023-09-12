@@ -1,0 +1,742 @@
+
+body{
+    margin: 0;
+}
+
+.content{
+    width: 84.2%;
+    height: 520px;
+    background: #f0f2f5;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+.footer{
+    width: 99%;
+    height: 240px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fb_logo{
+    height: 105px;
+    margin-left: 90px;
+    
+}
+
+.desc{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 120px;
+    margin-top: -15px;
+}
+
+.login{
+ width: 370px;
+ height: 330px;
+ background-color: white;
+ margin-left: 730px;
+ margin-top: -220px;
+ padding-left: 20px;
+ padding-top: 20px;
+ padding-bottom: 8px;
+ border-radius: 0.2cm;
+ box-shadow: #1d2129;
+}
+
+.mailphone{
+ width: 90%;
+ height: 47px;
+ margin-left: 5px;
+ padding-left: 10px;
+ font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+ font-size: large;
+ color: #747881;
+ border-radius: 0.12cm;
+ border: 1px solid #dddfe2;
+ opacity: 90%;
+}
+
+
+.password{
+ width: 90%;
+ height: 47px;
+ margin-left: 5px;
+ margin-top: 12px;
+ padding-left: 10px;
+ font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+ font-size: large;
+ color: #747881;
+ border-radius: 0.12cm;
+ border: 1px solid #dddfe2;
+ opacity: 90%;
+}
+
+
+.submit_button{
+ width: 94%;
+ height: 47px;
+ margin-left: 5px;
+ margin-top: 18px;
+ background-color: #1877f2;
+ color: #fff;
+ font-size: larger;
+ font-weight: bolder;
+ border-radius: 0.2cm;
+ border: 0;
+ cursor: pointer;
+}
+
+.forgot_pass{
+ margin-left: 105px;
+ text-decoration: none;
+ line-height: 4;
+ font-family: Helvetica, Arial, sans-serif;
+ color: #1877f2;
+ font-size: 14px;
+ font-weight: 500;
+}
+
+.forgot_pass:hover{
+    text-decoration: underline;
+}
+
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin-left: -10px;
+    width: 367px;
+    opacity: 30%;
+}
+
+.create{
+    width: 51%;
+    height: 47px;
+    margin-left: 86px;
+    border-radius: 0.2cm;
+    background-color: #42b72a;
+    color: #fff;
+    font-size: medium;
+    font-weight: bolder;
+    border: 0;
+    cursor: pointer;
+}
+
+.create:hover{
+  background-color: #369323;
+  transition-duration: 0.5s;
+}
+
+.page{
+    margin-left: 770px;
+    line-height: 5;
+    text-decoration: none;
+    color: #1d2129;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.page:hover{
+    text-decoration: underline;
+}
+
+.Lang1{
+    margin-left: 430px;
+    line-height: 5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #1c1e21;
+    float: left;
+    opacity: 90%;
+}
+
+.Malayalam{
+    margin-left: 15px;
+    float: left;
+    margin-top: 33px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+}
+
+.Malayalam:hover{
+    text-decoration: underline;
+}
+
+.Tamil{
+    float: left;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+} 
+
+.Tamil:hover{
+    text-decoration: underline;
+}
+
+.Telugu{
+    float: left;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.Telugu:hover{
+    text-decoration: underline;
+}
+
+.Hindi{
+    float: left;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.Hindi:hover{
+    text-decoration: underline;
+}
+
+.Spanish{
+    float: left;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.Spanish:hover{
+    text-decoration: underline;
+}
+
+.Portuguese{
+    float: left;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.Portuguese:hover{
+    text-decoration: underline;
+}
+
+.French{
+    float: left;
+    margin-left: 20px;
+    margin-top: 33px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+} 
+
+.French:hover{
+    text-decoration: underline;
+}
+
+.plus{
+    float: left;
+    margin-left: 18px;
+    margin-top: 30px;
+    width: 31px;
+    height: 21px;
+    font-weight: 550;
+    font-size: 12px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.footer_sep{
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin-left: -640px;
+    margin-top: 58px;
+    width: 922px;
+    opacity: 30%;
+    float: left;
+}
+
+.SignUp{
+    float: left;
+    margin-left: -922px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+} 
+
+.SignUp:hover{
+    text-decoration: underline;
+}
+
+.Log{
+    float: left;
+    margin-left: -860px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Log:hover{
+    text-decoration: underline;
+}
+
+.Messenger{
+    float: left;
+    margin-left: -810px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Messenger:hover{
+    text-decoration: underline;
+}
+
+.Lite{
+    float: left;
+    margin-left: -731px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Lite:hover{
+    text-decoration: underline;
+}
+
+.Video{
+    float: left;
+    margin-left: -632px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Video:hover{
+    text-decoration: underline;
+}
+
+.Places{
+    float: left;
+    margin-left: -580px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Places:hover{
+    text-decoration: underline;
+}
+
+.Games{
+    float: left;
+    margin-left: -526px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Games:hover{
+    text-decoration: underline;
+}
+
+.Marketplace{
+    float: left;
+    margin-left: -470px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Marketplace:hover{
+    text-decoration: underline;
+}
+
+.MetaP{
+    float: left;
+    margin-left: -384px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.MetaP:hover{
+    text-decoration: underline;
+}
+
+.MetaS
+{
+    float: left;
+    margin-left: -310px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.MetaS:hover{
+    text-decoration: underline;
+}
+
+.MetaQ{
+    float: left;
+    margin-left: -232px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.MetaQ:hover{
+    text-decoration: underline;
+}
+
+.Instagram{
+    float: left;
+    margin-left: -154px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Instagram:hover{
+    text-decoration: underline;
+}
+
+.Threads{
+    float: left;
+    margin-left: -85px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Threads:hover{
+    text-decoration: underline;
+}
+
+.Fundraiser{
+    float: left;
+    margin-left: -29px;
+    margin-top: 51px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Fundraiser:hover{
+    text-decoration: underline;
+}
+
+.Service{
+    float: left;
+    margin-left: -952px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Service:hover{
+    text-decoration: underline;
+}
+
+.Voting{
+    float: left;
+    margin-left: -889px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Voting:hover{
+    text-decoration: underline;
+}
+
+.PrivacyP{
+    float: left;
+    margin-left: -734px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.PrivacyP:hover{
+    text-decoration: underline;
+}
+
+.PrivacyC{
+    float: left;
+    margin-left: -640px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.PrivacyC:hover{
+    text-decoration: underline;
+}
+
+.Groups{
+    float: left;
+    margin-left: -545px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.Groups:hover{
+    text-decoration:underline ;
+}
+
+.About{
+    float: left;
+    margin-left: -486px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.About:hover{
+    text-decoration: underline;
+}
+
+.ad{
+    float: left;
+    margin-left: -438px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.ad:hover{
+    text-decoration: underline;
+}
+
+.CP{
+    float: left;
+    margin-left: -372px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.CP:hover{
+    text-decoration: underline;
+}
+
+.Developers{
+    float: left;
+    margin-left: -290px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Developers:hover{
+   text-decoration: underline; 
+}
+
+.Careers{
+    float: left;
+    margin-left: -216px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Careers:hover{
+    text-decoration: underline;
+}
+
+.Cookies{
+    float: left;
+    margin-left: -160px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Cookies:hover{
+    text-decoration: underline;
+}
+
+.AdChoices{
+    float: left;
+    margin-left: -105px;
+    margin-top: 55px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer;
+}
+.AdChoices:hover{
+    text-decoration: underline;
+}
+
+.Terms{
+    float: left;
+    margin-left: -952px;
+    margin-top: 59px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Terms:hover{
+    text-decoration: underline;
+}
+
+.Help{
+    float: left;
+    margin-left: -907px;
+    margin-top: 59px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Help:hover{
+    text-decoration: underline;
+}
+
+.Contact{
+    float: left;
+    margin-left: -869px;
+    margin-top: 59px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Contact:hover{
+    text-decoration: underline;
+}
+
+.Meta2023{
+    float: left;
+    margin-left: -952px;
+    margin-top: 84px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #1c1e21;
+    opacity: 70%;
+    cursor: pointer; 
+}
+.Meta2023:hover{
+    text-decoration: underline;
+}
